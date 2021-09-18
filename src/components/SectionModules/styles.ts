@@ -10,6 +10,7 @@ export const Content = styled.div`
 
     ${media.greaterThan('medium')`
       grid-template-columns: 1fr 1fr;
+      grid-rows: auto;
     `}
   `}
 `
